@@ -1,0 +1,11 @@
+Tasks:
+- Research control scheme/maths (Teo, Faris)
+- Control CAN motors (Ben, Louis)
+- Add IMU (intertial measurement unit) + work out orientation (Jeremy, Matt)
+- Remote control (Ben)
+
+- Make fusion 360 team (Ben)
+- Make basic chassis (Martin)
+- Design wheel (Martin)
+- Wheel mounting (Martin)
+- Get hackspace approved (everyone)
