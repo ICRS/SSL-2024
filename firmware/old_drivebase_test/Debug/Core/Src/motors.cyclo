@@ -1,0 +1,2 @@
+../Core/Src/motors.c:11:6:SSL_Motors_Init	1
+../Core/Src/motors.c:31:6:SSL_Motor_Set_Speed	11

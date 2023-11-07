@@ -60,8 +60,8 @@ all: main-build
 main-build: old_drivebase_test.elf secondary-outputs
 
 # Tool invocations
-old_drivebase_test.elf old_drivebase_test.map: $(OBJS) $(USER_OBJS) C:\Users\bens1\Documents\Uni\Robotics\SSL-2024\firmware\old_drivebase_test\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "old_drivebase_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\bens1\Documents\Uni\Robotics\SSL-2024\firmware\old_drivebase_test\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="old_drivebase_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+old_drivebase_test.elf old_drivebase_test.map: $(OBJS) $(USER_OBJS) C:\Users\bens1\Documents\Uni\Robotics\SSL\SSL-2024\firmware\old_drivebase_test\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "old_drivebase_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\bens1\Documents\Uni\Robotics\SSL\SSL-2024\firmware\old_drivebase_test\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="old_drivebase_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
