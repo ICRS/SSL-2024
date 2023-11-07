@@ -5,7 +5,7 @@
  *      Author: bens1
  */
 
-#include "motors.h"
+#include <SSL_motors.h>
 #include "main.h"
 
 void SSL_Motors_Init(){
@@ -28,6 +28,7 @@ void SSL_Motors_Init(){
 	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, 0);
 }
 
+/* Set speed between -1000 and +1000 */
 void SSL_Motor_Set_Speed(uint8_t motor, int16_t speed){
 
 	switch (motor){
@@ -93,3 +94,20 @@ void SSL_Motor_Set_Speed(uint8_t motor, int16_t speed){
 
 		}
 }
+
+
+/* TODO: Set how fast the robot is moving */
+void SSL_Robot_Set_Speed(int16_t speed){
+
+}
+
+/* TODO: Set which way the robot is moving */
+void SSL_Robot_Set_Heading(int16_t heading){
+
+}
+
+/* TODO: Set which way the robot is facing */
+void SSL_Robot_Set_Facing(int16_t facing){
+
+}
+
