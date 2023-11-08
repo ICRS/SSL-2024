@@ -95,6 +95,11 @@ void SSL_Motor_Set_Speed(uint8_t motor, int16_t speed){
 		}
 }
 
+void SSL_Motor_Set_Speed_All(int16_t motor1_speed, int16_t motor2_speed, int16_t motor3_speed){
+	SSL_Motor_Set_Speed(1, motor1_speed);
+	SSL_Motor_Set_Speed(2, motor2_speed);
+	SSL_Motor_Set_Speed(3, motor3_speed);
+}
 
 /* TODO: Set how fast the robot is moving */
 void SSL_Robot_Set_Speed(int16_t speed){

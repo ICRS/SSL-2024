@@ -113,13 +113,9 @@ int main(void)
 		SSL_Motor_Set_Speed(2, 300);
 		SSL_Motor_Set_Speed(3, 300);
 		HAL_Delay(1000);
-		SSL_Motor_Set_Speed(1, 300);
-		SSL_Motor_Set_Speed(2, 500);
-		SSL_Motor_Set_Speed(3, -300);
+		SSL_Motor_Set_Speed_All(300, 500, -300);
 		HAL_Delay(1000);
-		SSL_Motor_Set_Speed(1, -800);
-		SSL_Motor_Set_Speed(2, 800);
-		SSL_Motor_Set_Speed(3, 0);
+		SSL_Motor_Set_Speed_All(-800, 800, 0);
 		HAL_Delay(1000);
 
 		/* USER CODE END WHILE */
