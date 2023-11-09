@@ -19,6 +19,7 @@
 
 #include "CAN_receive.h"
 #include "main.h"
+#include "usart.h"
 
 
 
@@ -60,6 +61,8 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     CAN_RxHeaderTypeDef rx_header;
     uint8_t rx_data[8];
 
+    uint8_t delme = 0x05;
+
     HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
 
     switch (rx_header.StdId)
@@ -78,6 +81,11 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
             get_motor_measure(&motor_chassis[i], rx_data);
             break;
         }
+
+        case CAN_6020_M4_ID:
+//        	HAL_GPIO_TogglePin(LED_R_GPIO_Port, LED_R_Pin);
+        	HAL_UART_Transmit(&huart1, &delme, 1, 100);
+        	break;
 
         default:
         {
@@ -171,7 +179,7 @@ void CAN_cmd_chassis_reset_ID(void)
 void CAN_cmd_chassis(int16_t motor1, int16_t motor2, int16_t motor3, int16_t motor4)
 {
     uint32_t send_mail_box;
-    chassis_tx_message.StdId = 0x1FF;//CAN_CHASSIS_ALL_ID;
+    chassis_tx_message.StdId = SSL_MOTOR_ID;//CAN_CHASSIS_ALL_ID;
     chassis_tx_message.IDE = CAN_ID_STD;
     chassis_tx_message.RTR = CAN_RTR_DATA;
     chassis_tx_message.DLC = 0x08;

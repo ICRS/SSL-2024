@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "can.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -89,8 +90,13 @@ int main(void)
   MX_GPIO_Init();
   MX_CAN1_Init();
   MX_CAN2_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+  uint8_t delme = 0x05;
   can_filter_init();
+  HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, RESET);
+  HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, RESET);
+  HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, RESET);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,6 +107,7 @@ int main(void)
 	  HAL_Delay(2);
       CAN_cmd_gimbal(10000, 10000, 10000, 10000);
       HAL_Delay(2);
+      HAL_UART_Transmit(&huart1, &delme, 1, 100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

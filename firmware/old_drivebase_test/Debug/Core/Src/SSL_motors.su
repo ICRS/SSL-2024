@@ -1,5 +1,6 @@
 ../Core/Src/SSL_motors.c:11:6:SSL_Motors_Init	8	static
 ../Core/Src/SSL_motors.c:32:6:SSL_Motor_Set_Speed	16	static
-../Core/Src/SSL_motors.c:100:6:SSL_Robot_Set_Speed	16	static
-../Core/Src/SSL_motors.c:105:6:SSL_Robot_Set_Heading	16	static
-../Core/Src/SSL_motors.c:110:6:SSL_Robot_Set_Facing	16	static
+../Core/Src/SSL_motors.c:98:6:SSL_Motor_Set_Speed_All	16	static
+../Core/Src/SSL_motors.c:105:6:SSL_Robot_Set_Speed	16	static
+../Core/Src/SSL_motors.c:110:6:SSL_Robot_Set_Heading	16	static
+../Core/Src/SSL_motors.c:115:6:SSL_Robot_Set_Facing	16	static
