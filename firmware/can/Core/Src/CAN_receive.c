@@ -23,6 +23,8 @@
 
 
 
+uint8_t delme[2];
+
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
 //motor data read
@@ -61,8 +63,6 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     CAN_RxHeaderTypeDef rx_header;
     uint8_t rx_data[8];
 
-    uint8_t delme = 0x05;
-
     HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
 
     switch (rx_header.StdId)
@@ -83,8 +83,10 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
         }
 
         case CAN_6020_M4_ID:
-//        	HAL_GPIO_TogglePin(LED_R_GPIO_Port, LED_R_Pin);
-        	HAL_UART_Transmit(&huart1, &delme, 1, 100);
+//        	HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, SET);
+        	delme[0] = rx_data[2];
+        	delme[1] = rx_data[3];
+//        	HAL_UART_Transmit(&huart1, &delme, 1, 100);
         	break;
 
         default:
