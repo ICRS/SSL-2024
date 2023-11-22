@@ -99,11 +99,11 @@ int main(void)
 
 	uint32_t previousTime = HAL_GetTick();
 
-	float kp = 1;
-	float ki = 0.01; // In RPM
+	float kp = 2;
+	float ki = 0; // In RPM
 	float kd = 0; // In RPM
 
-	float targetRPM = 50; // In RPM
+	float targetRPM = 25; // In RPM
 	float currentRPM = 0; // In RPM
 	float currentError = 0; // In RPM
 	float totalError = 0;
@@ -129,6 +129,7 @@ int main(void)
 //			counter = 0;
 //		}
 
+
 		if ((HAL_GetTick() - previousTime) > 50){
 			previousTime = HAL_GetTick();
 
@@ -138,13 +139,12 @@ int main(void)
 			totalError += currentError * 0.05;
 			errorChange = (currentError - previousError) / 0.05;
 
-			outputY = constrain(100 * (kp * currentError + ki * totalError + kd * errorChange), -30000, 30000);
 
+			outputY = constrain(100 * (kp * currentError + ki * totalError + kd * errorChange), -30000, 30000);
 
 			CAN_cmd_chassis(outputY, outputY, outputY, outputY);
 
-//			HAL_UART_Transmit(&huart6, outputY, 4, 100);
-
+			HAL_UART_Transmit(&huart6, (int32_t) outputY , 4, 100);
 		}
 
 
