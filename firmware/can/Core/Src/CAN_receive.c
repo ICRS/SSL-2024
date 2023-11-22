@@ -23,7 +23,7 @@
 
 
 
-uint8_t delme[2];
+uint8_t measuredSpeed[2];
 
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
@@ -83,10 +83,8 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
         }
 
         case CAN_6020_M4_ID:
-//        	HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, SET);
-        	delme[0] = rx_data[2];
-        	delme[1] = rx_data[3];
-//        	HAL_UART_Transmit(&huart1, &delme, 1, 100);
+        	measuredSpeed[1] = rx_data[2];
+        	measuredSpeed[0] = rx_data[3];
         	break;
 
         default:

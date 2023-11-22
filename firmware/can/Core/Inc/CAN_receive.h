@@ -54,7 +54,7 @@ typedef struct
     int16_t last_ecd;
 } motor_measure_t;
 
-extern uint8_t delme[2];
+extern uint8_t measuredSpeed[2];
 /**
   * @brief          send control current of motor (0x205, 0x206, 0x207, 0x208)
   * @param[in]      yaw: (0x205) 6020 motor control current, range [-30000,30000] 
