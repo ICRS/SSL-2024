@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "can.h"
+#include "spi.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -52,7 +53,7 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
-
+void runRadio(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -91,25 +92,15 @@ int main(void)
 	MX_CAN1_Init();
 	MX_CAN2_Init();
 	MX_USART6_UART_Init();
+	MX_SPI2_Init();
 	/* USER CODE BEGIN 2 */
 	can_filter_init();
+
 	HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, RESET);
 	HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, RESET);
 	HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, RESET);
 
-	uint32_t previousTime = HAL_GetTick();
-
-	float kp = 1;
-	float ki = 0.01; // In RPM
-	float kd = 0; // In RPM
-
-	float targetRPM = 50; // In RPM
-	float currentRPM = 0; // In RPM
-	float currentError = 0; // In RPM
-	float totalError = 0;
-	float errorChange = 0;
-	float previousError = 0;
-	float outputY = 0;
+	runRadio();
 
 	/* USER CODE END 2 */
 
@@ -117,37 +108,6 @@ int main(void)
 	/* USER CODE BEGIN WHILE */
 	while (1)
 	{
-		//	  HAL_GPIO_WritePin(LED_B_GPIO_Port, LED_B_Pin, RESET);
-		//	  HAL_Delay(500);
-//		CAN_cmd_chassis(16000, 16000, 16000, 16000);
-//		HAL_Delay(2);
-//		CAN_cmd_gimbal(10000, 10000, 10000, 10000);
-//		HAL_Delay(2);
-//		counter++;
-//		if (counter > 500){
-//			HAL_UART_Transmit(&huart6, delme, 2, 100);
-//			counter = 0;
-//		}
-
-		if ((HAL_GetTick() - previousTime) > 50){
-			previousTime = HAL_GetTick();
-
-			currentRPM = (measuredSpeed[1] << 8) | measuredSpeed[0];
-
-			currentError = targetRPM - currentRPM;
-			totalError += currentError * 0.05;
-			errorChange = (currentError - previousError) / 0.05;
-
-			outputY = constrain(100 * (kp * currentError + ki * totalError + kd * errorChange), -30000, 30000);
-
-
-			CAN_cmd_chassis(outputY, outputY, outputY, outputY);
-
-//			HAL_UART_Transmit(&huart6, outputY, 4, 100);
-
-		}
-
-
 		/* USER CODE END WHILE */
 
 		/* USER CODE BEGIN 3 */

@@ -25,7 +25,7 @@
 #define CHASSIS_CAN hcan1
 #define GIMBAL_CAN hcan2
 
-#define SSL_MOTOR_ID 0x1FF
+#define SSL_MOTOR_ID 0x200
 #define CAN_6020_M4_ID 0x208
 
 /* CAN send and receive ID */
