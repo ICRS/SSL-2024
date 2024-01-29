@@ -1,0 +1,114 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.9*%
+%TF.CreationDate,2024-01-28T09:25:02+00:00*%
+%TF.ProjectId,main_PCB_v1,6d61696e-5f50-4434-925f-76312e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L1,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.9) date 2024-01-28 09:25:02*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10C,3.600000*%
+%TD*%
+%TA.AperFunction,ConnectorPad*%
+%ADD11C,5.600000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD12R,1.950000X1.650000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD13RoundRect,0.140000X-0.140000X-0.170000X0.140000X-0.170000X0.140000X0.170000X-0.140000X0.170000X0*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,OL101,1,MH*%
+%TO.N,GND*%
+X119346650Y-57357550D03*
+D11*
+X119346650Y-57357550D03*
+D10*
+%TO.P,OL101,2,MH*%
+X127140650Y-61857550D03*
+D11*
+X127140650Y-61857550D03*
+D10*
+%TO.P,OL101,3,MH*%
+X200991650Y-113220550D03*
+D11*
+X200991650Y-113220550D03*
+D10*
+%TO.P,OL101,4,MH*%
+X200991650Y-131220550D03*
+D11*
+X200991650Y-131220550D03*
+D10*
+%TO.P,OL101,5,MH*%
+X119249650Y-125629550D03*
+D11*
+X119249650Y-125629550D03*
+%TD*%
+D12*
+%TO.P,X202,1,OE*%
+%TO.N,unconnected-(X202-OE-Pad1)*%
+X145250000Y-120450000D03*
+%TO.P,X202,2,GND*%
+%TO.N,GND*%
+X148000000Y-120450000D03*
+%TO.P,X202,3,OUT*%
+%TO.N,OSC32K*%
+X148000000Y-118250000D03*
+%TO.P,X202,4,VDD*%
+%TO.N,+3V3*%
+X145250000Y-118250000D03*
+%TD*%
+%TO.P,X201,1,OE*%
+%TO.N,unconnected-(X201-OE-Pad1)*%
+X145250000Y-115000000D03*
+%TO.P,X201,2,GND*%
+%TO.N,GND*%
+X148000000Y-115000000D03*
+%TO.P,X201,3,OUT*%
+%TO.N,OSC25M*%
+X148000000Y-112800000D03*
+%TO.P,X201,4,VDD*%
+%TO.N,+3V3*%
+X145250000Y-112800000D03*
+%TD*%
+D13*
+%TO.P,C202,1*%
+%TO.N,GND*%
+X150705000Y-114130000D03*
+%TO.P,C202,2*%
+%TO.N,+3V3*%
+X151665000Y-114130000D03*
+%TD*%
+%TO.P,C201,1*%
+%TO.N,+3V3*%
+X150705000Y-112160000D03*
+%TO.P,C201,2*%
+%TO.N,GND*%
+X151665000Y-112160000D03*
+%TD*%
+M02*
