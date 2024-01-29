@@ -210,10 +210,10 @@
     (property "Datasheet" "" (at 104.14 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 3cff1e95-0f84-46ae-8502-800e813e4ad7))
-    (pin "3" (uuid f1cbbc33-3530-4dea-af26-bed6393dabcc))
     (pin "2" (uuid 0c861884-cb22-4e23-8e82-8489e5308a9c))
+    (pin "3" (uuid f1cbbc33-3530-4dea-af26-bed6393dabcc))
     (pin "4" (uuid aaef3017-2aa5-4f47-bd7e-c73bb34e1f2b))
+    (pin "5" (uuid 3cff1e95-0f84-46ae-8502-800e813e4ad7))
     (instances
       (project "main_PCB_v1"
         (path "/73132c36-f9bc-41a1-bd49-e7f0b5a0c66e/40cac18d-c442-40b3-8100-55e0cf97a239"
