@@ -1,0 +1,8 @@
+[remote]
+url = ""
+
+[core]
+excludes = []
+
+[user]
+name = ""
