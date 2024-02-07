@@ -9,7 +9,7 @@
     (property "Footprint" "SSL Footprints:BMI270_BOS" (at 0 -16.51 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "BMI270" (at 0 -16.51 0)
+    (property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf" (at 0 -16.51 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "ki_keywords" "BMI270" (at 0 0 0)

@@ -32,3 +32,11 @@
 *.app
 
 */.metadata/*
+
+*.cyclo
+*.su
+*.elf
+*.list
+*.map
+*.prefs
+*.xml
