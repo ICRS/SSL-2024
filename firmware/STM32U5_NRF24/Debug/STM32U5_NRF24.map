@@ -903,7 +903,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Core/Src/syscalls.o
  .debug_macro   0x0000000000000000       0xce ./Core/Src/syscalls.o
  .debug_line    0x0000000000000000      0x8b2 ./Core/Src/syscalls.o
- .debug_str     0x0000000000000000     0x98ee ./Core/Src/syscalls.o
+ .debug_str     0x0000000000000000     0x98f2 ./Core/Src/syscalls.o
  .comment       0x0000000000000000       0x44 ./Core/Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac ./Core/Src/syscalls.o
  .ARM.attributes
@@ -966,7 +966,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Core/Src/sysmem.o
  .debug_macro   0x0000000000000000      0x1df ./Core/Src/sysmem.o
  .debug_line    0x0000000000000000      0x583 ./Core/Src/sysmem.o
- .debug_str     0x0000000000000000     0x60a5 ./Core/Src/sysmem.o
+ .debug_str     0x0000000000000000     0x60a9 ./Core/Src/sysmem.o
  .comment       0x0000000000000000       0x44 ./Core/Src/sysmem.o
  .debug_frame   0x0000000000000000       0x34 ./Core/Src/sysmem.o
  .ARM.attributes
@@ -1752,7 +1752,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
  .debug_line    0x0000000000000000     0x1971 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
- .debug_str     0x0000000000000000   0x146843 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
+ .debug_str     0x0000000000000000   0x146847 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
  .debug_frame   0x0000000000000000      0x6b8 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc_ex.o
  .ARM.attributes
@@ -2095,7 +2095,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
  .debug_line    0x0000000000000000     0x135d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
- .debug_str     0x0000000000000000   0x145d80 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
+ .debug_str     0x0000000000000000   0x145d84 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
  .debug_frame   0x0000000000000000      0x2a0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.o
  .ARM.attributes
@@ -2330,7 +2330,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
  .debug_line    0x0000000000000000     0x28a0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
- .debug_str     0x0000000000000000   0x1463ec ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
+ .debug_str     0x0000000000000000   0x1463f0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
  .debug_frame   0x0000000000000000      0x754 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.o
  .ARM.attributes
@@ -2488,7 +2488,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
  .debug_line    0x0000000000000000      0xd6e ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
- .debug_str     0x0000000000000000   0x145974 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
+ .debug_str     0x0000000000000000   0x145978 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
  .debug_frame   0x0000000000000000      0x1c4 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.o
  .ARM.attributes
@@ -2653,7 +2653,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
  .debug_line    0x0000000000000000      0xcc2 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
- .debug_str     0x0000000000000000   0x145ad3 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
+ .debug_str     0x0000000000000000   0x145ad7 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
  .debug_frame   0x0000000000000000      0x210 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.o
  .ARM.attributes
@@ -2835,7 +2835,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
  .debug_line    0x0000000000000000     0x10df ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
- .debug_str     0x0000000000000000   0x145d20 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
+ .debug_str     0x0000000000000000   0x145d24 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
  .debug_frame   0x0000000000000000      0x380 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.o
  .ARM.attributes
@@ -3110,7 +3110,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
  .debug_line    0x0000000000000000      0x923 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
- .debug_str     0x0000000000000000   0x14560c ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
+ .debug_str     0x0000000000000000   0x145610 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
  .ARM.attributes
                 0x0000000000000000       0x3a ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.o
@@ -3243,7 +3243,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
  .debug_line    0x0000000000000000      0x922 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
- .debug_str     0x0000000000000000   0x14560b ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
+ .debug_str     0x0000000000000000   0x14560f ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
  .ARM.attributes
                 0x0000000000000000       0x3a ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.o
@@ -3376,7 +3376,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
  .debug_line    0x0000000000000000      0x925 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
- .debug_str     0x0000000000000000   0x14560e ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
+ .debug_str     0x0000000000000000   0x145612 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
  .ARM.attributes
                 0x0000000000000000       0x3a ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.o
@@ -4000,7 +4000,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
  .debug_line    0x0000000000000000      0xbb7 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
- .debug_str     0x0000000000000000   0x145b90 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
+ .debug_str     0x0000000000000000   0x145b94 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
  .debug_frame   0x0000000000000000      0x2ac ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.o
  .ARM.attributes
@@ -5047,7 +5047,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
  .debug_line    0x0000000000000000      0x922 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
- .debug_str     0x0000000000000000   0x14560b ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
+ .debug_str     0x0000000000000000   0x14560f ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
  .ARM.attributes
                 0x0000000000000000       0x3a ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.o
@@ -5180,7 +5180,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x1c0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
  .debug_line    0x0000000000000000      0x925 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
- .debug_str     0x0000000000000000   0x14560e ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
+ .debug_str     0x0000000000000000   0x145612 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
  .ARM.attributes
                 0x0000000000000000       0x3a ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.o
@@ -5789,7 +5789,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x8d0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
  .debug_macro   0x0000000000000000      0x36f ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
  .debug_line    0x0000000000000000     0x12f6 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
- .debug_str     0x0000000000000000   0x14cc29 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
+ .debug_str     0x0000000000000000   0x14cc2d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
  .debug_frame   0x0000000000000000      0x530 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.o
  .ARM.attributes
@@ -5949,7 +5949,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x361 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
  .debug_macro   0x0000000000000000      0x194 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
  .debug_line    0x0000000000000000      0xa9d ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
- .debug_str     0x0000000000000000   0x146488 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
+ .debug_str     0x0000000000000000   0x14648c ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
  .debug_frame   0x0000000000000000      0x1bc ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.o
  .ARM.attributes
@@ -6235,7 +6235,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x84 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
  .debug_macro   0x0000000000000000      0x36f ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
  .debug_line    0x0000000000000000      0xa83 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
- .debug_str     0x0000000000000000   0x1476d9 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
+ .debug_str     0x0000000000000000   0x1476dd ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
  .debug_frame   0x0000000000000000       0xf8 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.o
  .ARM.attributes
@@ -6393,7 +6393,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x36f ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
  .debug_macro   0x0000000000000000      0xab6 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
  .debug_line    0x0000000000000000      0xa5b ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
- .debug_str     0x0000000000000000   0x14ecf0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
+ .debug_str     0x0000000000000000   0x14ecf4 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
  .debug_frame   0x0000000000000000      0x148 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.o
  .ARM.attributes
@@ -6788,7 +6788,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x28b ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
  .debug_macro   0x0000000000000000      0x4e1 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
  .debug_line    0x0000000000000000     0x1027 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
- .debug_str     0x0000000000000000   0x1509be ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
+ .debug_str     0x0000000000000000   0x1509c2 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
  .comment       0x0000000000000000       0x44 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
  .debug_frame   0x0000000000000000      0x524 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.o
  .ARM.attributes
@@ -8323,53 +8323,53 @@ LOAD C:/ST/STM32CubeIDE_1.10.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x00000000000193d8      0xc6f ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_gpio.o
  .debug_line    0x000000000001a047     0x1db1 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.o
 
-.debug_str      0x0000000000000000   0x161980
- .debug_str     0x0000000000000000   0x157051 ./Core/Src/main.o
-                                     0x158fa6 (size before relaxing)
- .debug_str     0x0000000000157051      0xd17 ./Core/Src/nrf24.o
-                                     0x158c15 (size before relaxing)
- .debug_str     0x0000000000157d68      0x51f ./Core/Src/radio_demo.o
-                                     0x158eb0 (size before relaxing)
- .debug_str     0x0000000000158287      0xb54 ./Core/Src/stm32u5xx_hal_msp.o
-                                     0x1595c3 (size before relaxing)
- .debug_str     0x0000000000158ddb       0xee ./Core/Src/stm32u5xx_it.o
-                                     0x157c93 (size before relaxing)
- .debug_str     0x0000000000158ec9      0x1c9 ./Core/Src/system_stm32u5xx.o
-                                     0x1459fc (size before relaxing)
- .debug_str     0x0000000000159092       0x35 ./Core/Startup/startup_stm32u575zitxq.o
-                                         0x81 (size before relaxing)
- .debug_str     0x00000000001590c7      0x72c ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o
-                                     0x1467cc (size before relaxing)
- .debug_str     0x00000000001597f3      0xe24 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.o
-                                     0x146cec (size before relaxing)
- .debug_str     0x000000000015a617      0x38c ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o
-                                     0x1465dd (size before relaxing)
- .debug_str     0x000000000015a9a3      0x2c4 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o
-                                     0x145a21 (size before relaxing)
- .debug_str     0x000000000015ac67      0x602 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o
-                                     0x145d3f (size before relaxing)
- .debug_str     0x000000000015b269      0x801 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.o
-                                     0x1462e5 (size before relaxing)
- .debug_str     0x000000000015ba6a      0x174 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.o
-                                     0x145c83 (size before relaxing)
- .debug_str     0x000000000015bbde      0x813 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o
-                                     0x14613c (size before relaxing)
- .debug_str     0x000000000015c3f1     0x12ed ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o
-                                     0x1470f1 (size before relaxing)
- .debug_str     0x000000000015d6de     0x256b ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o
-                                     0x148354 (size before relaxing)
- .debug_str     0x000000000015fc49      0x52e ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o
-                                     0x1462d0 (size before relaxing)
- .debug_str     0x0000000000160177       0xee ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o
-                                     0x145e60 (size before relaxing)
- .debug_str     0x0000000000160265      0x900 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o
-                                     0x1466c3 (size before relaxing)
- .debug_str     0x0000000000160b65      0x313 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o
-                                     0x146175 (size before relaxing)
- .debug_str     0x0000000000160e78      0x658 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_gpio.o
-                                     0x147f66 (size before relaxing)
- .debug_str     0x00000000001614d0      0x4b0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.o
-                                     0x1461df (size before relaxing)
+.debug_str      0x0000000000000000   0x161984
+ .debug_str     0x0000000000000000   0x157055 ./Core/Src/main.o
+                                     0x158faa (size before relaxing)
+ .debug_str     0x0000000000157055      0xd17 ./Core/Src/nrf24.o
+                                     0x158c19 (size before relaxing)
+ .debug_str     0x0000000000157d6c      0x51f ./Core/Src/radio_demo.o
+                                     0x158eb4 (size before relaxing)
+ .debug_str     0x000000000015828b      0xb54 ./Core/Src/stm32u5xx_hal_msp.o
+                                     0x1595c7 (size before relaxing)
+ .debug_str     0x0000000000158ddf       0xee ./Core/Src/stm32u5xx_it.o
+                                     0x157c97 (size before relaxing)
+ .debug_str     0x0000000000158ecd      0x1c9 ./Core/Src/system_stm32u5xx.o
+                                     0x145a00 (size before relaxing)
+ .debug_str     0x0000000000159096       0x35 ./Core/Startup/startup_stm32u575zitxq.o
+                                         0x85 (size before relaxing)
+ .debug_str     0x00000000001590cb      0x72c ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.o
+                                     0x1467d0 (size before relaxing)
+ .debug_str     0x00000000001597f7      0xe24 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_adc.o
+                                     0x146cf0 (size before relaxing)
+ .debug_str     0x000000000015a61b      0x38c ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.o
+                                     0x1465e1 (size before relaxing)
+ .debug_str     0x000000000015a9a7      0x2c4 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.o
+                                     0x145a25 (size before relaxing)
+ .debug_str     0x000000000015ac6b      0x602 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.o
+                                     0x145d43 (size before relaxing)
+ .debug_str     0x000000000015b26d      0x801 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.o
+                                     0x1462e9 (size before relaxing)
+ .debug_str     0x000000000015ba6e      0x174 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.o
+                                     0x145c87 (size before relaxing)
+ .debug_str     0x000000000015bbe2      0x813 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.o
+                                     0x146140 (size before relaxing)
+ .debug_str     0x000000000015c3f5     0x12ed ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.o
+                                     0x1470f5 (size before relaxing)
+ .debug_str     0x000000000015d6e2     0x256b ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.o
+                                     0x148358 (size before relaxing)
+ .debug_str     0x000000000015fc4d      0x52e ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.o
+                                     0x1462d4 (size before relaxing)
+ .debug_str     0x000000000016017b       0xee ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.o
+                                     0x145e64 (size before relaxing)
+ .debug_str     0x0000000000160269      0x900 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.o
+                                     0x1466c7 (size before relaxing)
+ .debug_str     0x0000000000160b69      0x313 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.o
+                                     0x146179 (size before relaxing)
+ .debug_str     0x0000000000160e7c      0x658 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_gpio.o
+                                     0x147f6a (size before relaxing)
+ .debug_str     0x00000000001614d4      0x4b0 ./Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.o
+                                     0x1461e3 (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x5dd0
  .debug_frame   0x0000000000000000      0x1bc ./Core/Src/main.o
@@ -8400,7 +8400,7 @@ LOAD C:/ST/STM32CubeIDE_1.10.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_frame   0x0000000000005d98       0x38 C:/ST/STM32CubeIDE_1.10.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v8-m.main+fp/hard\libgcc.a(_udivmoddi4.o)
 
 .debug_line_str
-                0x0000000000000000       0x75
+                0x0000000000000000       0x79
  .debug_line_str
-                0x0000000000000000       0x75 ./Core/Startup/startup_stm32u575zitxq.o
-                                         0x8e (size before relaxing)
+                0x0000000000000000       0x79 ./Core/Startup/startup_stm32u575zitxq.o
+                                         0x92 (size before relaxing)
