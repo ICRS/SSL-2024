@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32U5_NRF24.elf secondary-outputs
 
 # Tool invocations
-STM32U5_NRF24.elf STM32U5_NRF24.map: $(OBJS) $(USER_OBJS) C:\Users\bens1\Documents\Uni\Robotics\SSL-2024\firmware\STM32U5_NRF24\STM32U575ZITXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32U5_NRF24.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\bens1\Documents\Uni\Robotics\SSL-2024\firmware\STM32U5_NRF24\STM32U575ZITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32U5_NRF24.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32U5_NRF24.elf STM32U5_NRF24.map: $(OBJS) $(USER_OBJS) C:\Users\bens1\Documents\Uni\Robotics\SSL\SSL-2024\firmware\STM32U5_NRF24\STM32U575ZITXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32U5_NRF24.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m33 -T"C:\Users\bens1\Documents\Uni\Robotics\SSL\SSL-2024\firmware\STM32U5_NRF24\STM32U575ZITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32U5_NRF24.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
