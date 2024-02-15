@@ -9,3 +9,11 @@ Things to change:
 - One 24V kicker channel (not 2)
 - More capacitance on buck inputs (big electrolytic cap)
 - Fix MOSFET soldermask
+- Better thermal reliefs
+- SBDs on voltage rails
+- Ideal diodes to off board rails
+
+To buy
+- Switches
+- XT30 Female
+- XT60 Male
