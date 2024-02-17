@@ -1752,6 +1752,10 @@
     (uuid ffdcf16f-c2ca-433f-a14e-e2c11f8e450e)
   )
 
+  (text "FILTER VDD" (at 91.44 68.58 0)
+    (effects (font (size 10 10)) (justify left bottom))
+    (uuid 290902fe-3b24-43cc-b63c-afd0a9d2992c)
+  )
   (text "Potential divider\nbecause VCTL max\nvoltage is 1.8V"
     (at 167.64 139.7 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
