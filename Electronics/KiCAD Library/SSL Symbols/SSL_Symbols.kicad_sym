@@ -3039,6 +3039,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "OL"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Main Board Outline v3"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -3046,15 +3054,7 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
+		(property "Footprint" "SSL Footprints:main_board_outline_v3"
 			(at 0 0 0)
 			(effects
 				(font
