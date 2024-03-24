@@ -497,7 +497,30 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Microcontroller/CLK": "RF-50",
+      "/Microcontroller/CMD": "RF-50",
+      "/Microcontroller/DAT0": "RF-50",
+      "/Microcontroller/DAT1": "RF-50",
+      "/Microcontroller/DAT2": "RF-50",
+      "/Microcontroller/DAT3": "RF-50",
+      "/Microcontroller/SDMMC2_CLK": "RF-50",
+      "/Microcontroller/SDMMC2_CMD": "RF-50",
+      "/Microcontroller/SDMMC2_D0": "RF-50",
+      "/Microcontroller/SDMMC2_D1": "RF-50",
+      "/Microcontroller/SDMMC2_D2": "RF-50",
+      "/Microcontroller/SDMMC2_D3": "RF-50",
+      "/Wireless/ANT1": "RF-50",
+      "/Wireless/ANT2": "RF-50",
+      "/Wireless/ANT2_50": "RF-50",
+      "/Wireless/ANT_F1": "RF-50",
+      "/Wireless/ANT_F2": "RF-50",
+      "/Wireless/ANT_PCB": "RF-50",
+      "/Wireless/ANT_SMA": "RF-50",
+      "/Wireless/RF2": "RF-50",
+      "/Wireless/RFC": "RF-50",
+      "/Wireless/VDD_PA": "RF-50"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

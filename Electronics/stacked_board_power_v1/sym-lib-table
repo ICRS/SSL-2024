@@ -22,4 +22,6 @@
   (lib (name "STM32H723VGT6")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD Library/SSL Symbols/STM32H723VGT6.kicad_sym")(options "")(descr ""))
   (lib (name "TPS16416DRCR")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD Library/SSL Symbols/TPS16416DRCR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS25961DRVR")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD Library/SSL Symbols/TPS25961DRVR.kicad_sym")(options "")(descr ""))
+  (lib (name "DMN21D2UFB-7B")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD Library/SSL Symbols/DMN21D2UFB-7B.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8220DSGR")(type "KiCad")(uri "${KIPRJMOD}/../KiCAD Library/SSL Symbols/DRV8220DSGR.kicad_sym")(options "")(descr ""))
 )
