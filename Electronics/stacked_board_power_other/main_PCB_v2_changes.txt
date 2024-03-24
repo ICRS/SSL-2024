@@ -1,0 +1,19 @@
+Things to change:
+- Larger size
+- More IO pins
+- TVS diodes on input
+- More copper between battery connections
+- eFuse on input
+- eFuse on all rails
+- Smaller MCU (STM32H723VGT6)
+- One 24V kicker channel (not 2)
+- More capacitance on buck inputs (big electrolytic cap)
+- Fix MOSFET soldermask
+- Better thermal reliefs
+- SBDs on voltage rails
+- Ideal diodes to off board rails
+
+To buy
+- Switches
+- XT30 Female
+- XT60 Male
