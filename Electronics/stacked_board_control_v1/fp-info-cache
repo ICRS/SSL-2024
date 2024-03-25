@@ -1,4 +1,4 @@
-23157215044282792
+23162342325242759
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87157,6 +87157,13 @@ DC_logo_6mm
 0
 0
 SSL Footprints
+DMN21D2UFB7B
+X1-DFN1006-3_2021_1
+MOSFET (N-Channel)
+0
+3
+3
+SSL Footprints
 DMP2066UFDE7
 U-DFN2020-6 Type E
 MOSFET (P-Channel)
@@ -87542,12 +87549,26 @@ TCKE800NA_RF
 11
 11
 SSL Footprints
+daughter_board_outline_v1
+
+
+0
+0
+0
+SSL Footprints
 main_board_outline_v2
 
 
 0
 12
 4
+SSL Footprints
+main_board_outline_v3
+
+
+0
+45
+6
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

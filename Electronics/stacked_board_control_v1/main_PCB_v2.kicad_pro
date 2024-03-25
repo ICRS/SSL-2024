@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "main_PCB_v2-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "main_PCB_v1.step",
@@ -616,18 +616,6 @@
     [
       "73132c36-f9bc-41a1-bd49-e7f0b5a0c66e",
       "Root"
-    ],
-    [
-      "40cac18d-c442-40b3-8100-55e0cf97a239",
-      "Microcontroller"
-    ],
-    [
-      "0967cea5-ca64-435c-884b-84cde77959f6",
-      "Power"
-    ],
-    [
-      "d4ff4577-5c83-4ded-b06f-281ac62a6505",
-      "Wireless"
     ]
   ],
   "text_variables": {}

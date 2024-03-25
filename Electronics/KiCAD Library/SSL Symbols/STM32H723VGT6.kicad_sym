@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 30.48 10.16 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,15 +18,15 @@
 			)
 		)
 		(property "Value" "STM32H723VGT6"
-			(at 30.48 7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "LQFP100_STM"
-			(at 0 0 0)
+		(property "Footprint" "SSL Footprints:STM32H723VGT6"
+			(at 0 -86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h723vg.pdf"
-			(at 0 0 0)
+			(at 0 -83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -20.32 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,45 +81,9 @@
 			)
 		)
 		(symbol "STM32H723VGT6_1_1"
-			(polyline
-				(pts
-					(xy 7.62 -86.36) (xy 53.34 -86.36)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -86.36)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 53.34 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 7.62 5.08)
-				(end 53.34 -86.36)
+				(start -12.7 5.08)
+				(end 12.7 -81.28)
 				(stroke
 					(width 0)
 					(type default)
@@ -129,7 +93,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 0 180)
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "PC0"
 					(effects
@@ -147,7 +111,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -2.54 180)
+				(at 20.32 0 180)
 				(length 7.62)
 				(name "PC1"
 					(effects
@@ -165,7 +129,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -5.08 180)
+				(at 20.32 -2.54 180)
 				(length 7.62)
 				(name "PC2_C"
 					(effects
@@ -183,7 +147,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -7.62 180)
+				(at 20.32 -5.08 180)
 				(length 7.62)
 				(name "PC3_C"
 					(effects
@@ -201,7 +165,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 0 0)
+				(at -20.32 2.54 0)
 				(length 7.62)
 				(name "PA0"
 					(effects
@@ -219,7 +183,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
+				(at -20.32 0 0)
 				(length 7.62)
 				(name "PA1"
 					(effects
@@ -237,7 +201,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -5.08 0)
+				(at -20.32 -2.54 0)
 				(length 7.62)
 				(name "PA2"
 					(effects
@@ -255,7 +219,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
+				(at -20.32 -5.08 0)
 				(length 7.62)
 				(name "PA3"
 					(effects
@@ -273,7 +237,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -10.16 0)
+				(at -20.32 -7.62 0)
 				(length 7.62)
 				(name "PA4"
 					(effects
@@ -291,7 +255,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -12.7 0)
+				(at -20.32 -10.16 0)
 				(length 7.62)
 				(name "PA5"
 					(effects
@@ -309,7 +273,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -15.24 0)
+				(at -20.32 -12.7 0)
 				(length 7.62)
 				(name "PA6"
 					(effects
@@ -327,7 +291,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -17.78 0)
+				(at -20.32 -15.24 0)
 				(length 7.62)
 				(name "PA7"
 					(effects
@@ -345,7 +309,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -10.16 180)
+				(at 20.32 -7.62 180)
 				(length 7.62)
 				(name "PC4"
 					(effects
@@ -363,7 +327,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -12.7 180)
+				(at 20.32 -10.16 180)
 				(length 7.62)
 				(name "PC5"
 					(effects
@@ -381,7 +345,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -43.18 0)
+				(at -20.32 -40.64 0)
 				(length 7.62)
 				(name "PB0"
 					(effects
@@ -399,7 +363,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -45.72 0)
+				(at -20.32 -43.18 0)
 				(length 7.62)
 				(name "PB1"
 					(effects
@@ -417,7 +381,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -48.26 0)
+				(at -20.32 -45.72 0)
 				(length 7.62)
 				(name "PB2"
 					(effects
@@ -435,7 +399,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -68.58 0)
+				(at -20.32 -66.04 0)
 				(length 7.62)
 				(name "PB10"
 					(effects
@@ -453,7 +417,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -71.12 0)
+				(at -20.32 -68.58 0)
 				(length 7.62)
 				(name "PB11"
 					(effects
@@ -471,7 +435,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -73.66 0)
+				(at -20.32 -71.12 0)
 				(length 7.62)
 				(name "PB12"
 					(effects
@@ -489,7 +453,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -76.2 0)
+				(at -20.32 -73.66 0)
 				(length 7.62)
 				(name "PB13"
 					(effects
@@ -507,7 +471,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -78.74 0)
+				(at -20.32 -76.2 0)
 				(length 7.62)
 				(name "PB14"
 					(effects
@@ -525,7 +489,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -81.28 0)
+				(at -20.32 -78.74 0)
 				(length 7.62)
 				(name "PB15"
 					(effects
@@ -543,7 +507,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -63.5 180)
+				(at 20.32 -60.96 180)
 				(length 7.62)
 				(name "PD8"
 					(effects
@@ -561,7 +525,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -66.04 180)
+				(at 20.32 -63.5 180)
 				(length 7.62)
 				(name "PD9"
 					(effects
@@ -579,7 +543,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -68.58 180)
+				(at 20.32 -66.04 180)
 				(length 7.62)
 				(name "PD10"
 					(effects
@@ -597,7 +561,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -71.12 180)
+				(at 20.32 -68.58 180)
 				(length 7.62)
 				(name "PD11"
 					(effects
@@ -615,7 +579,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -73.66 180)
+				(at 20.32 -71.12 180)
 				(length 7.62)
 				(name "PD12"
 					(effects
@@ -633,7 +597,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -76.2 180)
+				(at 20.32 -73.66 180)
 				(length 7.62)
 				(name "PD13"
 					(effects
@@ -651,7 +615,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -78.74 180)
+				(at 20.32 -76.2 180)
 				(length 7.62)
 				(name "PD14"
 					(effects
@@ -669,7 +633,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -81.28 180)
+				(at 20.32 -78.74 180)
 				(length 7.62)
 				(name "PD15"
 					(effects
@@ -687,7 +651,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -15.24 180)
+				(at 20.32 -12.7 180)
 				(length 7.62)
 				(name "PC6"
 					(effects
@@ -705,7 +669,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -17.78 180)
+				(at 20.32 -15.24 180)
 				(length 7.62)
 				(name "PC7"
 					(effects
@@ -723,7 +687,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -20.32 180)
+				(at 20.32 -17.78 180)
 				(length 7.62)
 				(name "PC8"
 					(effects
@@ -741,7 +705,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -22.86 180)
+				(at 20.32 -20.32 180)
 				(length 7.62)
 				(name "PC9"
 					(effects
@@ -759,7 +723,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -20.32 0)
+				(at -20.32 -17.78 0)
 				(length 7.62)
 				(name "PA8"
 					(effects
@@ -777,7 +741,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -22.86 0)
+				(at -20.32 -20.32 0)
 				(length 7.62)
 				(name "PA9"
 					(effects
@@ -795,7 +759,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -25.4 0)
+				(at -20.32 -22.86 0)
 				(length 7.62)
 				(name "PA10"
 					(effects
@@ -813,7 +777,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -33.02 180)
+				(at 20.32 -30.48 180)
 				(length 7.62)
 				(name "PC13"
 					(effects
@@ -831,7 +795,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -27.94 0)
+				(at -20.32 -25.4 0)
 				(length 7.62)
 				(name "PA11"
 					(effects
@@ -849,7 +813,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -30.48 0)
+				(at -20.32 -27.94 0)
 				(length 7.62)
 				(name "PA12"
 					(effects
@@ -867,7 +831,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -33.02 0)
+				(at -20.32 -30.48 0)
 				(length 7.62)
 				(name "PA13"
 					(effects
@@ -885,7 +849,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -35.56 0)
+				(at -20.32 -33.02 0)
 				(length 7.62)
 				(name "PA14"
 					(effects
@@ -903,7 +867,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
+				(at -20.32 -35.56 0)
 				(length 7.62)
 				(name "PA15"
 					(effects
@@ -921,7 +885,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -25.4 180)
+				(at 20.32 -22.86 180)
 				(length 7.62)
 				(name "PC10"
 					(effects
@@ -939,7 +903,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -27.94 180)
+				(at 20.32 -25.4 180)
 				(length 7.62)
 				(name "PC11"
 					(effects
@@ -957,7 +921,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -35.56 180)
+				(at 20.32 -33.02 180)
 				(length 7.62)
 				(name "PC14-OSC32_IN"
 					(effects
@@ -975,7 +939,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -30.48 180)
+				(at 20.32 -27.94 180)
 				(length 7.62)
 				(name "PC12"
 					(effects
@@ -993,7 +957,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -43.18 180)
+				(at 20.32 -40.64 180)
 				(length 7.62)
 				(name "PD0"
 					(effects
@@ -1011,7 +975,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -45.72 180)
+				(at 20.32 -43.18 180)
 				(length 7.62)
 				(name "PD1"
 					(effects
@@ -1029,7 +993,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -48.26 180)
+				(at 20.32 -45.72 180)
 				(length 7.62)
 				(name "PD2"
 					(effects
@@ -1047,7 +1011,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -50.8 180)
+				(at 20.32 -48.26 180)
 				(length 7.62)
 				(name "PD3"
 					(effects
@@ -1065,7 +1029,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -53.34 180)
+				(at 20.32 -50.8 180)
 				(length 7.62)
 				(name "PD4"
 					(effects
@@ -1083,7 +1047,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -55.88 180)
+				(at 20.32 -53.34 180)
 				(length 7.62)
 				(name "PD5"
 					(effects
@@ -1101,7 +1065,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -58.42 180)
+				(at 20.32 -55.88 180)
 				(length 7.62)
 				(name "PD6"
 					(effects
@@ -1119,7 +1083,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -60.96 180)
+				(at 20.32 -58.42 180)
 				(length 7.62)
 				(name "PD7"
 					(effects
@@ -1137,7 +1101,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -50.8 0)
+				(at -20.32 -48.26 0)
 				(length 7.62)
 				(name "PB3"
 					(effects
@@ -1155,7 +1119,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 60.96 -38.1 180)
+				(at 20.32 -35.56 180)
 				(length 7.62)
 				(name "PC15-OSC32_OUT"
 					(effects
@@ -1173,7 +1137,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -53.34 0)
+				(at -20.32 -50.8 0)
 				(length 7.62)
 				(name "PB4"
 					(effects
@@ -1191,7 +1155,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -55.88 0)
+				(at -20.32 -53.34 0)
 				(length 7.62)
 				(name "PB5"
 					(effects
@@ -1209,7 +1173,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -58.42 0)
+				(at -20.32 -55.88 0)
 				(length 7.62)
 				(name "PB6"
 					(effects
@@ -1227,7 +1191,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -60.96 0)
+				(at -20.32 -58.42 0)
 				(length 7.62)
 				(name "PB7"
 					(effects
@@ -1245,7 +1209,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -63.5 0)
+				(at -20.32 -60.96 0)
 				(length 7.62)
 				(name "PB8"
 					(effects
@@ -1263,7 +1227,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -66.04 0)
+				(at -20.32 -63.5 0)
 				(length 7.62)
 				(name "PB9"
 					(effects
@@ -1282,45 +1246,9 @@
 			)
 		)
 		(symbol "STM32H723VGT6_2_1"
-			(polyline
-				(pts
-					(xy 7.62 -43.18) (xy 48.26 -43.18)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -43.18)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 7.62 5.08)
-				(end 48.26 -43.18)
+				(start -12.7 5.08)
+				(end 12.7 -38.1)
 				(stroke
 					(width 0)
 					(type default)
@@ -1330,7 +1258,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -5.08 0)
+				(at -20.32 -2.54 0)
 				(length 7.62)
 				(name "PE2"
 					(effects
@@ -1348,7 +1276,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 55.88 0 180)
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "PH0-OSC_IN"
 					(effects
@@ -1366,7 +1294,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 55.88 -2.54 180)
+				(at 20.32 0 180)
 				(length 7.62)
 				(name "PH1-OSC_OUT"
 					(effects
@@ -1384,7 +1312,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 55.88 -12.7 180)
+				(at 20.32 -10.16 180)
 				(length 7.62)
 				(name "NRST"
 					(effects
@@ -1402,7 +1330,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
+				(at -20.32 -5.08 0)
 				(length 7.62)
 				(name "PE3"
 					(effects
@@ -1420,7 +1348,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -10.16 0)
+				(at -20.32 -7.62 0)
 				(length 7.62)
 				(name "PE4"
 					(effects
@@ -1438,7 +1366,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -17.78 0)
+				(at -20.32 -15.24 0)
 				(length 7.62)
 				(name "PE7"
 					(effects
@@ -1456,7 +1384,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -20.32 0)
+				(at -20.32 -17.78 0)
 				(length 7.62)
 				(name "PE8"
 					(effects
@@ -1474,7 +1402,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -22.86 0)
+				(at -20.32 -20.32 0)
 				(length 7.62)
 				(name "PE9"
 					(effects
@@ -1492,7 +1420,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -12.7 0)
+				(at -20.32 -10.16 0)
 				(length 7.62)
 				(name "PE5"
 					(effects
@@ -1510,7 +1438,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -25.4 0)
+				(at -20.32 -22.86 0)
 				(length 7.62)
 				(name "PE10"
 					(effects
@@ -1528,7 +1456,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -27.94 0)
+				(at -20.32 -25.4 0)
 				(length 7.62)
 				(name "PE11"
 					(effects
@@ -1546,7 +1474,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -30.48 0)
+				(at -20.32 -27.94 0)
 				(length 7.62)
 				(name "PE12"
 					(effects
@@ -1564,7 +1492,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -33.02 0)
+				(at -20.32 -30.48 0)
 				(length 7.62)
 				(name "PE13"
 					(effects
@@ -1582,7 +1510,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -35.56 0)
+				(at -20.32 -33.02 0)
 				(length 7.62)
 				(name "PE14"
 					(effects
@@ -1600,7 +1528,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
+				(at -20.32 -35.56 0)
 				(length 7.62)
 				(name "PE15"
 					(effects
@@ -1618,7 +1546,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -15.24 0)
+				(at -20.32 -12.7 0)
 				(length 7.62)
 				(name "PE6"
 					(effects
@@ -1636,7 +1564,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -7.62 180)
+				(at 20.32 -5.08 180)
 				(length 7.62)
 				(name "BOOT0"
 					(effects
@@ -1654,7 +1582,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 0 0)
+				(at -20.32 2.54 0)
 				(length 7.62)
 				(name "PE0"
 					(effects
@@ -1672,7 +1600,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
+				(at -20.32 0 0)
 				(length 7.62)
 				(name "PE1"
 					(effects
@@ -1691,45 +1619,9 @@
 			)
 		)
 		(symbol "STM32H723VGT6_3_1"
-			(polyline
-				(pts
-					(xy 7.62 -38.1) (xy 33.02 -38.1)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -38.1)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 7.62 5.08)
-				(end 33.02 -38.1)
+				(start -12.7 5.08)
+				(end 12.7 -33.02)
 				(stroke
 					(width 0)
 					(type default)
@@ -1739,7 +1631,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
+				(at -20.32 2.54 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -1757,7 +1649,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -10.16 180)
+				(at 20.32 -7.62 180)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -1775,7 +1667,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 0 180)
+				(at 20.32 2.54 180)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -1793,7 +1685,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -15.24 0)
+				(at -20.32 -12.7 0)
 				(length 7.62)
 				(name "VSSA"
 					(effects
@@ -1811,7 +1703,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -33.02 180)
+				(at 20.32 -30.48 180)
 				(length 7.62)
 				(name "VREF+"
 					(effects
@@ -1829,7 +1721,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -27.94 180)
+				(at 20.32 -25.4 180)
 				(length 7.62)
 				(name "VDDA"
 					(effects
@@ -1847,7 +1739,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
+				(at -20.32 0 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -1865,7 +1757,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -2.54 180)
+				(at 20.32 0 180)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -1883,7 +1775,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -20.32 180)
+				(at 20.32 -17.78 180)
 				(length 7.62)
 				(name "VCAP"
 					(effects
@@ -1901,7 +1793,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 0)
+				(at -20.32 -2.54 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -1919,7 +1811,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -5.08 180)
+				(at 20.32 -2.54 180)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -1937,7 +1829,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -15.24 180)
+				(at 20.32 -12.7 180)
 				(length 7.62)
 				(name "VBAT"
 					(effects
@@ -1955,7 +1847,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -22.86 180)
+				(at 20.32 -20.32 180)
 				(length 7.62)
 				(name "VCAP"
 					(effects
@@ -1973,7 +1865,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 0)
+				(at -20.32 -5.08 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -1991,7 +1883,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -7.62 180)
+				(at 20.32 -5.08 180)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -2009,7 +1901,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 0)
+				(at -20.32 -7.62 0)
 				(length 7.62)
 				(name "VSS"
 					(effects
